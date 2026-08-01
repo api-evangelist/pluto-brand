@@ -1,7 +1,27 @@
 aid: pluto-brand
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pluto-brand.png
 name: Pluto Brand
-description: Pluto Brand is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pluto (Plutopillow) is a Los Angeles-based direct-to-consumer sleep wellness
+  brand best known for the Pluto Pillow, a made-to-order pillow custom-built
+  around each customer's unique sleep profile via an online sleep quiz. The
+  company also sells the PUFF body pillow, the POD travel pillow, and
+  temperature-regulating bedding, and offers a 125-night risk-free trial with
+  free shipping and returns. Surfaced as a portfolio company of 500 Global and
+  added to the API Evangelist network, Pluto is a consumer e-commerce brand with
+  no public developer platform, API, SDKs, or partner-integration surface at this
+  time; this profile captures its public web properties for discovery.
 url: https://raw.githubusercontent.com/api-evangelist/pluto-brand/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sleep
+- Wellness
+- E-Commerce
+- Consumer Products
+- Direct-to-Consumer
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://plutopillow.com
+- type: Blog
+  url: https://plutopillow.com/journal
+- type: Support
+  url: https://plutopillow.com/contact-us
+- type: HelpCenter
+  url: https://plutopillow.com/faqs
+- type: TermsOfService
+  url: https://plutopillow.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://plutopillow.com/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
